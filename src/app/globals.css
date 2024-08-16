@@ -2,32 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* .task-icon, .inbox-icon {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.task-icon {
+  opacity: 0;
+  transform: translateX(100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.inbox-icon {
+  opacity: 0;
+  transform: translateX(100%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+.expanded .task-icon, 
+.expanded .inbox-icon {
+  opacity: 1;
+  transform: translateX(0);
+} */
+
